@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Ubuntu:wght@400;500;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins',sans-serif;
+    }
+body {
+    Background-color:black;
+}
+.map{
+    position:absolute;
+    top:50%;
+    left:50%;
+    Transform:translate(-50%,-50%);
+    Display:flex;
+   
+
+}
+span{
+    width:100px;
+    height:200px;
+    Background:url(https://i.postimg.cc/FFML7z9q/children-817368-1920.jpg);
+    background-size:300px 100%;
+    
+    
+    
+}
+
+span:nth-child(1){
+
+    transform:skewY(-30deg);
+    background-position:-000px 0px;
+    
+}
+span:nth-child(2){
+
+    transform:skewY(30deg);
+    background-position:-400px 0px;
+    Filter:brightness(80%);
+    
+}
+span:nth-child(3){
+
+    transform:skewY(-30deg);
+    background-position:-800px 0px;
+    
+    
+}
+.link{
+  position:absolute;
+  top:95%;
+  left:50%;
+  transform:translate(-50%,-50%);
+  background-color:#363636;
+width:250px;
+text-align:center;
+  color:white;
+  font-weight:999;
+  font-size:4vw;
+  height:35px ;
+  font-size:20px;
+  padding-top:5px;
+  border-radius:5px;
+ margin-bottom:5vw;
+}
+ 
